@@ -1,5 +1,5 @@
 let count=0
-let arr=new Array(9).fill(null)
+
 
 //writing X or O
 function change(){
