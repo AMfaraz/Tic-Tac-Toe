@@ -24,15 +24,16 @@ let drli3=document.querySelectorAll("button.r3")
 //adding events here
 for(let elem of drli1){
   elem.addEventListener("click",change)
+  elem.addEventListener("click",check)
  
 }
 for(let elem of drli2){
   elem.addEventListener("click",change)
- 
+  elem.addEventListener("click",check)
 }
 for(let elem of drli3){
   elem.addEventListener("click",change)
- 
+  elem.addEventListener("click",check)
 }
 
 //conditions for a win
